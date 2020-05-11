@@ -27,7 +27,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>MainClass</mainClass>
+                            <mainClass>C:\Users\User\IdeaProjects\MinorGame_bott\src\main\java\MainClass.java</mainClass>
                             <name>worker</name>
                         </program>
                     </programs>
