@@ -1,1 +1,1 @@
-web: java MainClass.java
+worker: sh target/bin/worker
