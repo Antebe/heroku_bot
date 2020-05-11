@@ -24,7 +24,7 @@ public class MG extends TelegramLongPollingBot {
 
             if( txt.equals("/help@MinorGame_bot")){
                 sendMsg(msg, "Правила прості (як і у всіх хороших ігор): якщо ти під час переписки пишеш слово, яке загадав бот, то твій рахунок збільшується на +2. " +
-                        "Однак будь обачним! Деякі слова, які загадає бот, можуть результувати -1! Після кожного повідомлення бот змінює ключове слово. Автор -  @antebe");}
+                        "Однак будь обачним! Деякі слова, які загадає бот, можуть результувати -1! Після кожного повідомлення бот змінює ключове слово. Автор (=gay) -  @antebe");}
             if( txt.toLowerCase().indexOf(word.toLowerCase()) != -1) {
                 scores[ ArrayUtils.indexOf(players, player)] = scores[ ArrayUtils.indexOf(players, player)] + 2 ;
                 System.out.println(scores[ ArrayUtils.indexOf(players, player)]);
