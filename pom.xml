@@ -30,10 +30,6 @@
                             <mainClass>MainClass</mainClass>
                             <name>worker</name>
                         </program>
-                        <program>
-                            <mainClass>OneOffProcess</mainClass>
-                            <name>oneoff</name>
-                        </program>
                     </programs>
                 </configuration>
                 <executions>
